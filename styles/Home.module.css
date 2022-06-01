@@ -1,7 +1,12 @@
-.container {
-  padding: 0 2rem;
+.container{
+  background-color: rgb(51, 52, 54);
+  height: 1000px
 }
-
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -106,6 +111,10 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+.AllCards{
+  background-color: rgb(51, 52, 54);
+  height: 1000px;
 }
 
 @media (max-width: 600px) {
